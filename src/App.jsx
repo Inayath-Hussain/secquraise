@@ -51,6 +51,7 @@ function App() {
       setLocations(loc)
       setGenders(gend)
       setData(d)
+      console.log(d)
       setSelectedPerson(d[0])
 
     }
