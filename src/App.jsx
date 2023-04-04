@@ -17,8 +17,6 @@ function App() {
   const [range, setRange] = useState({ min: '', max: '' });
   const { data, setData } = useContext(dataContext);
 
-  console.log('hellooooo')
-
   useEffect(() => {
     const unsub = async () => {
       let d = [];
