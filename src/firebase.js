@@ -8,9 +8,9 @@ import { getFirestore } from "firebase/firestore"
 const firebaseConfig = {
     apiKey: import.meta.env.VITE_APIKEY,
     authDomain: import.meta.env.VITE_AUTHDOMAIN,
-    projectId: 'secq-fb0aa',
+    projectId: 'secq2-ba472',
     storageBucket: import.meta.env.VITE_STORAGEBUCKET,
-    messagingSenderId: "102223134719",
+    messagingSenderId: "126092951200",
     appId: import.meta.env.VITE_APPID
 };
 
